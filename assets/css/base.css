@@ -1,0 +1,630 @@
+@charset "utf-8";
+/* ---------------------------------------------------------------------------
+
+	CSS BASE STYLES: @2009 by Glenn McKeown
+	for Clarity - Version 1.0
+
+*/
+
+/* ---------------------------------------------------------------------------
+	LAYOUT
+*/
+
+#wrapper {
+	margin:0 auto;
+	width:960px;
+	}
+#header {
+	height:130px;
+	padding:0 10px;
+	width:940px;
+	}
+#container {
+	overflow:hidden;
+	padding:90px 0 50px 0;
+	width:960px;
+	}
+	.col-third {
+		float:left;
+		padding:0 10px;
+		width:300px;
+		}
+	.col-2_thirds {
+		float:left;
+		padding:0 10px;
+		width:620px;
+		}
+	.col-full {
+		float:left;
+		padding:0 10px;
+		width:940px;
+		}
+#footer {
+	padding:30px 10px;
+	width:940px;
+	}
+
+/* ---------------------------------------------------------------------------
+	NAVIGATION STYLES
+*/
+
+.jqueryslidemenu{
+	clear:both;
+	float:right;
+	height:35px;
+	padding:0; /* reset padding-bottom:22px from ul tag */
+	position:relative;
+	z-index:200;
+	}
+	.jqueryslidemenu ul{
+		margin:0;
+		padding:0;
+		list-style:none;
+			}
+		.jqueryslidemenu ul li {
+			background:none;
+			display:inline;
+			float:left;
+			margin:0 0 0 5px;
+			padding:0;
+			position:relative;
+			text-indent:-9999px;
+			}
+			.jqueryslidemenu ul li a {
+				color:#999;
+				display:block;
+				font-size:12px;
+				height:35px;
+				line-height:35px;
+				width:100px;
+				}
+				/*1st sub level menu*/
+				.jqueryslidemenu ul li ul {
+					background-color:#f6f6f6;
+					display:block;
+					left:0;
+					position: absolute;
+					visibility: hidden;
+					z-index:99;
+				}
+					/*Sub level menu list items (undo style from Top level List Items)*/
+					.jqueryslidemenu ul li ul li {
+						display:list-item;
+						float:none;
+						text-indent:0px;
+						margin:0;
+					}
+						/* Sub level menu links style */
+						.jqueryslidemenu ul li ul li a {
+							padding:0 0 0 5px;
+							margin:0;
+							border-bottom: 1px solid #f0f0f0;
+							width:170px;
+						}
+							/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+							.jqueryslidemenu ul li ul li ul {
+								top: 0;
+							}
+#sub-nav {
+	float:right;
+	height:15px;
+	margin:-60px 10px 0 0;
+	width:100%;
+	}
+	#sub-nav li {
+		background:none;
+		display:inline;
+		float:right;
+		list-style:none;
+		padding:0 35px;
+		}
+		#sub-nav li a {
+			font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
+			}
+
+/* ---------------------------------------------------------------------------
+	TYPOGRAPHY STYLES
+*/
+
+body {
+
+	}
+	
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: normal;
+	letter-spacing:-1px;
+	}
+h1 {
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
+	font-size:40px;
+	line-height:40px;
+	letter-spacing:-2.6px;
+	}
+	h1 span {
+	font-style:italic;
+	font-size:24px;
+	letter-spacing:-2px;
+	}
+h2 {
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
+	font-size:28px;
+	line-height:36px;
+	}
+h3 {
+	font-family:"Myriad Pro", Verdana, Arial, sans-serif;
+	font-size:18px;
+	line-height:18px;
+	letter-spacing:0.5px;
+	padding:0 0 22px 0;
+	text-transform:uppercase;
+	}
+h4 {
+	font-size:16px;
+	line-height:24px;
+	}
+h5 {
+	font-size:14px;
+	font-weight:bold;
+	line-height:21px;
+	}
+h6 {
+	font-size:12px;
+	font-weight:bold;
+	line-height:18px;
+	}
+	
+p, b, strong, i, em, address, abbr, acronym, small, big, q, blockquote, cite, caption {
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
+	font-size:12px;
+	line-height:20px;
+	padding:0 0 20px 0;
+	}
+	#header p {
+		display:inline;
+		float:right;
+		font-size:11px;
+		margin:25px 0 0 0;
+		padding:0; /* reset padding-bottom:20px from above */
+		}
+a {
+	font-family:inherit;
+	}
+a:link {
+	text-decoration:none;
+	}
+a:visited {
+	text-decoration:none;
+	}
+a:hover {
+	text-decoration:underline;
+	}
+a:active {
+	text-decoration:underline;
+	}
+a:focus {
+	outline:none;
+	}
+b, strong {
+	font-weight:bold;
+	}
+i, em {
+	font-style:italic;
+	}
+	em.contact-details {
+		display:block;
+		font-size:11px;
+		padding:0;
+		}
+		em.contact-details a {
+			font-size:11px;
+			}
+address {
+	font-size:11px;
+	font-style:italic;
+	}
+	#header address {
+		display:inline;
+		float:right;
+		font-style:normal;
+		margin:25px 40px 0 0;
+		text-align:right;
+		}
+small {
+	font-size:10px;
+	}
+big {
+	font-size:14px;
+	}
+	blockquote {
+	padding:0; /* reset padding-bottom:18px from above */
+	}
+q, blockquote p {
+	display:block;
+	font-style:italic;
+	line-height:22px;
+	}
+blockquote p {
+	background:url(../img/quotation.jpg) top left no-repeat;
+	padding:0 0 22px 35px;
+	}
+cite {
+	display:block;
+	font-weight:bold;
+	margin:-10px 0 0 0;
+	}
+
+/* ---------------------------------------------------------------------------
+	LISTS STYLES
+*/
+
+ul, ol, dl {
+	font-size:13px;
+	line-height:22px;
+	padding:0 0 22px 10px;
+	}
+ul li {
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
+	padding:0 0 0 20px;
+	}
+ol li {
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
+	list-style:inside decimal;
+	}
+.sidebar {
+	font-size:14px;
+	line-height:40px;
+	padding:0 0 50px 0;
+	}
+	.sidebar li {
+		padding-bottom:0;
+		}
+	.sidebar li a {
+		display:block;
+		height:40px;
+		}
+		.sidebar li a:hover {
+			text-decoration:none;
+			}
+.pagination {
+	float:right;
+	font-size:12px;
+	line-height:20px;
+	padding:0;
+	}
+	.pagination li {
+		display:block;
+		float:left;
+		height:20px;
+		margin-right:10px;
+		padding:0;
+		text-align:center;
+		width:20px;
+		}
+		.pagination li a {
+			display:block;
+			}
+		.pagination li a:hover {
+			text-decoration:none;
+			}
+#footer ul {
+	float:left;
+	padding:0;
+	width:430px;
+	}
+	#footer ul li {
+		background:none;
+		display:inline;
+		padding:0;
+		text-transform:uppercase;
+		}
+
+/* ---------------------------------------------------------------------------
+	FORMS STYLES
+*/
+
+.contact_form form p {
+	padding-bottom:0; /* reset padding-bottom:18px from p tag */
+	}
+
+.contact_form input, .contact_form textarea, .contact_form select  {
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
+	font-size:12px;
+	line-height:20px;
+	margin:5px 0 18px 0;
+	padding:5px 10px;
+	width:280px;
+	}
+.contact_form input, .contact_form select  {
+	height:15px;
+	}
+.contact_form textarea {
+	height:150px;
+	width:450px;
+	}
+	
+#submit {
+	height:30px;
+	margin:10px 0 0 0;
+	width:101px;
+	}
+	#submit {
+	cursor:pointer;
+	}
+.contact_form label {
+	display:block;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:11px;
+	padding:0 0 0 8px;
+	}
+
+/* ---------------------------------------------------------------------------
+	FORMS STYLES
+*/
+
+.calc_form input {
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
+	font-size:12px;
+	line-height:20px;
+	margin:5px 0 18px 0;
+	padding:5px 10px;
+	width:80px;
+	height:15px;
+	}
+
+	
+/* ---------------------------------------------------------------------------
+	BLOG STYLES
+*/	
+
+.date {
+	margin-bottom:10px;
+	}
+.more {
+	margin:-20px 0 0 0;
+	}
+#blog .button-medium {
+	margin-bottom:20px;
+	}
+
+
+	
+/* ---------------------------------------------------------------------------
+	TABLE STYLES
+*/	
+
+caption {
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing:-0.3px;
+	text-align:left;
+	padding:0 0 5px 10px;
+	}
+table {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	margin:0 0 18px 0;
+	text-align:left;
+	}
+th {
+	font-size:12px;
+	padding:10px 15px;
+	text-transform:capitalize;
+	}
+tr {
+	}
+td {
+	padding:7px 15px;	
+	}
+
+/* ---------------------------------------------------------------------------
+	PORTFOLIO GALLERY
+*/
+
+.gallery {
+	padding-left:0; /* reset 10px inherite from UL */
+	padding-bottom:22px;
+	}	
+.gallery li {
+	background:none;
+	float:left; 
+	height:160px;
+	list-style:none;
+	margin:0 0 20px 0;
+	overflow:hidden;
+	padding:0;
+	position:relative; 
+	width:300px; 
+}
+	.gallery li.margin-left {
+		margin-left:20px;
+		}
+	.gallery li img {
+		left:0; 
+		position:absolute; 
+		top:0; 
+	}
+	.gallery li p {
+		float:right;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:11px;
+		height:38px; 
+		left:14px;
+		padding:10px; 
+		position:absolute; 
+		top:160px;
+		width:252px;
+	}
+	.gallery li p span {
+		display:block;
+		font-style:italic;
+	}
+
+/* ---------------------------------------------------------------------------
+	CONTENT SLIDER
+*/
+
+#featured { 
+	height:340px;
+	margin:0 10px 80px 10px;
+	position:relative;
+	width:940px; 
+}
+	#featured ul.ui-tabs-nav { 
+		left:0; 
+		padding:0;
+		position:absolute; 
+		top:170px; 
+		width:180px; 
+	}
+		#featured ul.ui-tabs-nav li {
+			line-height:0;
+			list-style:none;
+			margin:10px 0 0 10px;
+			padding:0;
+		}
+			#featured li.ui-tabs-nav-item a { 
+				display:block; 
+				line-height:30px;
+				text-align:center;
+				width:170px;
+			}
+				#featured li.ui-tabs-selected, #featured li.ui-tabs-nav-item a:hover, #featured ul.ui-tabs-nav li.ui-tabs-selected a {
+					text-decoration:none;
+				}
+#featured .ui-tabs-panel {
+	height:340px;
+	position:absolute;
+	top:0; left:180px;
+	width:760px;
+	z-index:10;
+}
+	#featured .ui-tabs-panel .info {
+		height:340px;
+		left:380px;	
+		overflow:hidden;
+		position:absolute; 
+		text-align:right;
+		top:0; 
+		width:370px;
+		z-index:20;
+	}
+	#featured .info big {
+		display:block;
+		float:right;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:14px;
+		letter-spacing:1px;
+		line-height:22px;
+		width:175px;
+	}
+#featured .ui-tabs-hide { 
+	display:none; 
+}
+
+/* ---------------------------------------------------------------------------
+	BUTTONS
+*/	
+
+.button-small {
+	border:none;
+	display:block;
+	height:20px;
+	line-height:20px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:20px;
+	}
+	.button-small:hover {
+	text-decoration:none;
+	}
+.button-medium {
+	border:none;
+	display:block;
+	height:30px;
+	line-height:30px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:101px;
+	}
+	.button-medium:hover {
+	text-decoration:none;
+	}
+.button-large {
+	border:none;
+	display:block;
+	height:30px;
+	line-height:30px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:170px;
+	}
+	.button-large:hover {
+	text-decoration:none;
+	}
+
+/* ---------------------------------------------------------------------------
+	OTHER STYLES
+*/	
+
+hr {
+	visibility:hidden;
+	height:30px;
+	}
+.logo {
+	display:block;
+	float:left;
+	height:52px;
+	margin:45px 0 0 0;
+	padding-bottom:0; /* reset padding-bottom:18px from a tag */
+	text-indent:-9999px;
+	width:220px;
+	}
+.copyright {
+	display:inline;
+	float:right;
+	text-align:right;
+	text-transform:uppercase;
+	}
+.header-image {
+	float:left;
+	width:675px;
+	height:333px;
+	position:relative;
+	}
+.hide {
+	display:none;
+	}
+.button-medium {
+	border:none;
+	display:block;
+	height:30px;
+	line-height:30px;
+	margin:0;
+	padding:0;
+	text-align:center;
+	width:101px;
+	}
+	.button-medium:hover {
+	text-decoration:none;
+	}
+.left {
+	float:left;
+	}
+.right {
+	float:right;
+	}
+.img-left {
+	float:left;
+	margin-top:5px;
+	margin-right:5px;
+	}
+.img-right {
+	float:right;
+	margin-top:5px;
+	margin-left:5px;
+	}

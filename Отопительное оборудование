@@ -1,0 +1,493 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!-- BEGIN META -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Продажа газовых отопительных котлов и элементов автоматики" />
+<meta name="keywords" content="газ, газопровод, газоснабжение, подключение газа, счетчик газа, регулятор давления газа, котел, бойлер" />
+<!-- END META -->
+
+<title>Газовые котлы Vaillant, Junkers, Jäspi - Магазин ГеоГаз</title>
+
+<!-- BEGIN STYLESHEETS -->
+<link href="assets/css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/base.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/green/style.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if IE 6]>
+<link href="assets/css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="assets/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- END STYLESHEETS -->
+
+<!-- BEGIN SCRIPTS -->
+<script type="text/javascript" src="assets/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui-1.6.min.js" ></script>
+<script type="text/javascript" src="assets/js/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript" src="assets/js/jqueryslidemenu.js"></script>
+<script type="text/javascript" src="assets/js/sliding-boxes.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 7000, true);
+		$('a[rel=lightbox]').lightBox();
+	});
+</script>
+<!-- END SCRIPTS -->
+
+</head>
+
+<body id="shop">
+<div id="wrapper">
+	<div id="header">
+		<a href="index.html" class="logo">ГеоГаз - прокладка газопроводов, подключение газа</a>
+        <p>Velcom (044) 780-80-16</p>
+        <address>Минск, Беларусь</address>
+        <div id="myslidemenu" class="jqueryslidemenu">
+            <ul>
+                <li class="service"><a href="Услуги">Услуги</a>
+                    <ul>
+                        <li><a href="Проектирование газопроводов">Проектирование</a></li>
+                        <li><a href="Подключение газа">Монтаж газопровода</a></li>
+                        <li><a href="Системы теплоснабжения">Теплоснабжение</a></li>
+                    </ul>
+                </li>
+                <li class="shop"><a href="Магазин">Магазин</a>
+                    <ul>
+                        <li><a href="Счетчики газа">Счетчики газа</a></li>
+                        <li><a href="Регуляторы давления газа">Регуляторы давления газа</a></li>
+                        <li><a href="Отопительное оборудование">Газовые котлы</a></li>
+                    </ul>
+                </li>
+                <li class="answers"><a href="Вопросы и Ответы">Вопрос-Ответ</a></li>
+                <li class="partners"><a href="Партнеры">Партнеры</a></li>
+                <li class="geogas"><a href="index.html">ГеоГаз</a>
+                            <ul>
+                                <li><a href="Контактная информация">Контактная информация</a></li>
+                                <li><a href="Лицензии">Лицензии</a></li>
+                            </ul>
+                </li>
+            </ul>
+            <br style="clear: left" />
+        </div><!-- END MYSLIDEMENU -->
+	</div><!-- END HEADER -->
+    <div id="container">
+
+         <div class="col-2_thirds">
+            <h2><a href="blog-post.html">Газовые котлы - все</a></h2>
+             <table width="100%" border="0">
+                <caption>Таблица подбора газового котла</caption>
+                <tr>
+                    <th scope="col">Производитель</th>
+                    <th scope="col">Модель</th>
+                    <th scope="col">Отапливаемая площадь</th>
+                    <th scope="col">Мощность</th>
+                    <th scope="col">Горячая вода</th>
+                    <th scope="col">Исполнение</th>
+                    <th scope="col">Камера сгорания</th>
+                    <th scope="col">Цена, евро</th>
+                </tr>
+                <tr class="odd">
+                    <td>Junkers</td>
+                    <td>ZS 12-1 KE</td>
+                    <td>120</td>
+                    <td>12,6</td>
+                    <td>Необходим бойлер</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>420</td>
+                </tr>
+                <tr class="even">
+                    <td>Junkers</td>
+                    <td>ZW 24-2 DH KE</td>
+                    <td>240</td>
+                    <td>24,5</td>
+                    <td>С проточным нагревом</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>650</td>
+                </tr>
+                <tr class="odd">
+                    <td>Junkers</td>
+                    <td>ZW 28-2 DH</td>
+                    <td>280</td>
+                    <td>28</td>
+                    <td>С проточным нагревом</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>860</td>
+                </tr>
+                <tr class="even">
+                    <td>Junkers</td>
+                    <td>ZWA 24-2 K</td>
+                    <td>260</td>
+                    <td>24,5</td>
+                    <td>С проточным нагревом</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>825</td>
+                </tr>
+                <tr class="odd">
+                    <td>Junkers</td>
+                    <td>ZWC 28-1</td>
+                    <td>320</td>
+                    <td>28</td>
+                    <td>С проточным нагревом</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>990</td>
+                </tr>
+                <tr class="even">
+                    <td>Junkers</td>
+                    <td>ZWC 28-3</td>
+                    <td>320</td>
+                    <td>28</td>
+                    <td>С проточным нагревом</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>1070</td>
+                </tr>
+                <tr class="odd">
+                    <td>Junkers</td>
+                    <td>ZS 12-1</td>
+                    <td>120</td>
+                    <td>12,6</td>
+                    <td>Необходим бойлер</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>520</td>
+                </tr>
+                <tr class="even">
+                    <td>Junkers</td>
+                    <td>ZW</td>
+                    <td>240</td>
+                    <td>24,5</td>
+                    <td>8-10 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>800</td>
+                </tr>
+                <tr class="odd">
+                    <td>Junkers</td>
+                    <td>ZW 30</td>
+                    <td>300</td>
+                    <td>30</td>
+                    <td>8-12 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>980</td>
+                </tr>
+                <tr class="even">
+                    <td>Junkers</td>
+                    <td>ZWE 24-4</td>
+                    <td>280</td>
+                    <td>24,4</td>
+                    <td>8-10 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>900</td>
+                </tr>
+                <tr class="odd">
+                    <td>Junkers</td>
+                    <td>ZWC 35-</td>
+                    <td>350</td>
+                    <td>28</td>
+                    <td>8-12 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>1250</td>
+                </tr>
+                <tr class="even">
+                    <td>Junkers</td>
+                    <td>ZSB 22-</td>
+                    <td>250</td>
+                    <td>22</td>
+                    <td></td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>1490</td>
+                </tr>
+                <tr class="odd">
+                    <td>Junkers</td>
+                    <td>ZBR 11-</td>
+                    <td>450</td>
+                    <td>11-42</td>
+                    <td>Необходим бойлер</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>1750</td>
+                </tr>
+                <tr class="even">
+                    <td>Bosch</td>
+                    <td>K34-8E</td>
+                    <td>350</td>
+                    <td>34</td>
+                    <td></td>
+                    <td>Напольный</td>
+                    <td>Закрытая</td>
+                    <td>1290</td>
+                </tr>
+                <tr class="odd">
+                    <td>Bosch</td>
+                    <td>K45-8E</td>
+                    <td>480</td>
+                    <td>45</td>
+                    <td></td>
+                    <td>Напольный</td>
+                    <td>Закрытая</td>
+                    <td>1390</td>
+                </tr>
+                <tr class="even">
+                    <td>Bosch</td>
+                    <td>K56-8E</td>
+                    <td>660</td>
+                    <td>56</td>
+                    <td></td>
+                    <td>Напольный</td>
+                    <td>Закрытая</td>
+                    <td>1690</td>
+                </tr>
+                <tr class="odd">
+                    <td>Vaillant</td>
+                    <td>atmoTEC pro VUW 240/3-3</td>
+                    <td>240</td>
+                    <td>24</td>
+                    <td>Проточный нагреватель, 11.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>880</td>
+                </tr>
+                <tr class="even">
+                    <td>Vaillant</td>
+                    <td>atmoTEC pro VUW 280/3-3</td>
+                    <td>280</td>
+                    <td>28</td>
+                    <td>Проточный нагреватель, 13.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>970</td>
+                </tr>
+                <tr class="odd">
+                    <td>Vaillant</td>
+                    <td>turboTEC pro VUW 242/3-3</td>
+                    <td>240</td>
+                    <td>24</td>
+                    <td>Проточный нагреватель, 11.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>930</td>
+                </tr>
+                <tr class="even">
+                    <td>Vaillant</td>
+                    <td>turboTEC pro VUW 282/3-3</td>
+                    <td>280</td>
+                    <td>28</td>
+                    <td>Проточный нагреватель, 13.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>1130</td>
+                </tr>
+                <tr class="odd">
+                    <td>Vaillant</td>
+                    <td>atmoTEC plus VUW 240/3-5</td>
+                    <td>240</td>
+                    <td>24</td>
+                    <td>Проточный нагреватель, 11.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>1120</td>
+                </tr>
+                <tr class="even">
+                    <td>Vaillant</td>
+                    <td>atmoTEC plus VUW 280/3-5</td>
+                    <td>280</td>
+                    <td>28</td>
+                    <td>Проточный нагреватель, 13.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>1220</td>
+                </tr>
+                <tr class="odd">
+                    <td>Vaillant</td>
+                    <td>turboTEC plus VUW 242/3-5</td>
+                    <td>240</td>
+                    <td>24</td>
+                    <td>Проточный нагреватель, 11.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>1260</td>
+                </tr>
+                <tr class="even">
+                    <td>Vaillant</td>
+                    <td>turboTEC plus VUW 282/3-5</td>
+                    <td>280</td>
+                    <td>28</td>
+                    <td>Проточный нагреватель, 13.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>1400</td>
+                </tr>
+                <tr class="odd">
+                    <td>Vaillant</td>
+                    <td>turboTEC plus VUW 322/3-5</td>
+                    <td>320</td>
+                    <td>32</td>
+                    <td>Проточный нагреватель, 15.3 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>1650</td>
+                </tr>
+                <tr class="even">
+                    <td>Vaillant</td>
+                    <td>turboTEC plus VUW 362/3-5</td>
+                    <td>350</td>
+                    <td>36</td>
+                    <td>Проточный нагреватель, 17.2 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>1800</td>
+                </tr>
+                <tr class="odd">
+                    <td>Vaillant</td>
+                    <td>atmoTEC plus VU 240/3-5</td>
+                    <td>240</td>
+                    <td>24</td>
+                    <td>Проточный нагреватель, 11.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>1000</td>
+                </tr>
+                <tr class="even">
+                    <td>Vaillant</td>
+                    <td>atmoTEC plus VU 280/3-5</td>
+                    <td>280</td>
+                    <td>28</td>
+                    <td>Проточный нагреватель, 13.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Открытая</td>
+                    <td>1150</td>
+                </tr>
+                <tr class="odd">
+                    <td>Vaillant</td>
+                    <td>turboTEC plus VU 242/3-5</td>
+                    <td>240</td>
+                    <td>24</td>
+                    <td>Проточный нагреватель, 11.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>1100</td>
+                </tr>
+                <tr class="even">
+                    <td>Vaillant</td>
+                    <td>turboTEC plus VU 282/3-5</td>
+                    <td>280</td>
+                    <td>28</td>
+                    <td>Проточный нагреватель, 13.4 л./мин.</td>
+                    <td>Настенный</td>
+                    <td>Закрытая</td>
+                    <td>1150</td>
+                </tr>
+                <tr class="odd">
+                    <td>Vaillant</td>
+                    <td>atmoVIT combi VKC INT 320/1-3-120</td>
+                    <td>320</td>
+                    <td>32</td>
+                    <td>Встроенный бойлер 120 л.</td>
+                    <td>Напольный</td>
+                    <td>Открытая</td>
+                    <td>2200</td>
+                </tr>
+                <tr class="even">
+                    <td>Vaillant</td>
+                    <td>turboVIT combi VKC INT 325/1-5-120</td>
+                    <td>320</td>
+                    <td>32</td>
+                    <td>Встроенный бойлер 120 л.</td>
+                    <td>Напольный</td>
+                    <td>Закрытая</td>
+                    <td>2650</td>
+                </tr>
+                <tr class="odd">
+                    <td>Vaillant</td>
+                    <td>atmoVIT exclusiv VK 264/8</td>
+                    <td>250</td>
+                    <td>26,6</td>
+                    <td>Необходим бойлер</td>
+                    <td>Напольный</td>
+                    <td>Открытая</td>
+                    <td>2385</td>
+                </tr>
+                <tr class="even">
+                    <td>Vaillant</td>
+                    <td>atmoVIT exclusiv VK 314/8</td>
+                    <td>300</td>
+                    <td>31,7</td>
+                    <td>Необходим бойлер</td>
+                    <td>Напольный</td>
+                    <td>Открытая</td>
+                    <td>2408</td>
+                </tr>
+                <tr class="odd">
+                    <td>Vaillant</td>
+                    <td>atmoVIT exclusiv VK 364/8</td>
+                    <td>350</td>
+                    <td>37</td>
+                    <td>Необходим бойлер</td>
+                    <td>Напольный</td>
+                    <td>Открытая</td>
+                    <td>2472</td>
+                </tr>
+                <tr class="even">
+                    <td>Vaillant</td>
+                    <td>atmoVIT exclusiv VK 428/8</td>
+                    <td>400</td>
+                    <td>42,4</td>
+                    <td>Необходим бойлер</td>
+                    <td>Напольный</td>
+                    <td>Открытая</td>
+                    <td>3087</td>
+                </tr>
+                <tr class="odd">
+                    <td>Vaillant</td>
+                    <td>atmoVIT exclusiv VK 474/8</td>
+                    <td>450</td>
+                    <td>47,7</td>
+                    <td>Необходим бойлер</td>
+                    <td>Напольный</td>
+                    <td>Открытая</td>
+                    <td>3237</td>
+                </tr>
+                <tr class="even">
+                    <td>Vaillant</td>
+                    <td>atmoVIT VK 254/1-5</td>
+                    <td>250</td>
+                    <td>25</td>
+                    <td>Необходим бойлер</td>
+                    <td>Напольный</td>
+                    <td>Открытая</td>
+                    <td>1431</td>
+                </tr>
+            </table>
+       </div><!-- END .COL-2_THIRDS -->
+       
+	</div><!-- END CONTAINER -->
+    <div id="footer">
+        <ul>
+            <li><a href="index.html">ГеоГаз</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Услуги">Услуги</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Магазин">Магазин</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Вопросы и Ответы">Вопрос-ответ</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Партнеры">Партнеры</a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2010 ООО "ГеоГаз"</p>
+    </div><!-- END FOOTER -->
+</div><!-- END WRAPPER -->
+</body>
+
+</html>

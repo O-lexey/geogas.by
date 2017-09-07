@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!-- BEGIN META -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Магазин счетчиков газа для коттеджей и частных домов" />
+<meta name="keywords" content="газ, газопровод, газоснабжение, подключение газа, счетчик газа, регулятор давления газа, котел, бойлер" />
+<!-- END META -->
+
+<title>Счетчики расхода газа (БелОМО имени Вавилова) - Магазин ГеоГаз</title>
+
+<!-- BEGIN STYLESHEETS -->
+<link href="assets/css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/base.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/green/style.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if IE 6]>
+<link href="assets/css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="assets/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- END STYLESHEETS -->
+
+<!-- BEGIN SCRIPTS -->
+<script type="text/javascript" src="assets/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui-1.6.min.js" ></script>
+<script type="text/javascript" src="assets/js/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript" src="assets/js/jqueryslidemenu.js"></script>
+<script type="text/javascript" src="assets/js/sliding-boxes.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 7000, true);
+		$('a[rel=lightbox]').lightBox();
+	});
+</script>
+<!-- END SCRIPTS -->
+
+</head>
+
+<body id="geogas">
+<div id="wrapper">
+	<div id="header">
+		<a href="index.html" class="logo">ГеоГаз - прокладка газопроводов, подключение газа</a>
+        <p>Velcom (044) 780-80-16</p>
+        <address>Минск, Беларусь</address>
+        <div id="myslidemenu" class="jqueryslidemenu">
+            <ul>
+                <li class="service"><a href="Услуги">Услуги</a>
+                    <ul>
+                        <li><a href="Проектирование газопроводов">Проектирование</a></li>
+                        <li><a href="Подключение газа">Монтаж газопровода</a></li>
+                        <li><a href="Системы теплоснабжения">Теплоснабжение</a></li>
+                    </ul>
+                </li>
+                <li class="shop"><a href="Магазин">Магазин</a>
+                    <ul>
+                        <li><a href="Счетчики газа">Счетчики газа</a></li>
+                        <li><a href="Регуляторы давления газа">Регуляторы давления газа</a></li>
+                        <li><a href="Отопительное оборудование">Газовые котлы</a></li>
+                    </ul>
+                </li>
+                <li class="answers"><a href="Вопросы и Ответы">Вопрос-Ответ</a></li>
+                <li class="partners"><a href="Партнеры">Партнеры</a></li>
+                <li class="geogas"><a href="index.html">ГеоГаз</a>
+                            <ul>
+                                <li><a href="Контактная информация">Контактная информация</a></li>
+                                <li><a href="Лицензии">Лицензии</a></li>
+                            </ul>
+                </li>
+            </ul>
+            <br style="clear: left" />
+        </div><!-- END MYSLIDEMENU -->
+	</div><!-- END HEADER -->
+    <div id="container">
+
+        <div class="col-2_thirds">
+            <h3>Цены на газовые счетчики</h3>
+             <table width="100%" border="0">
+                <tr>
+                    <th scope="col">Наименование</th>
+                    <th scope="col">Подключаемое оборудование</th>
+                    <th scope="col">Цена</th>
+                </tr>
+                <tr class="odd">
+                    <td>СГД-G 1,6 СГД-G 2,5</td>
+                    <td>Газовая плита</td>
+                    <td>155.000</td>
+                </tr>
+                <tr class="even">
+                    <td>СГМН-G 4  СГМ-G 6</td>
+                    <td>Газовая плита, котел, водонагреватель</td>
+                    <td>159.000</td>
+                </tr>
+                <tr class="odd">
+                    <td>СГД-3Т-1 G6</td>
+                    <td>Газовая плита, котел, водонагреватель</td>
+                    <td>275.000</td>
+                </tr>
+                <tr class="even">
+                    <td>Ящик для СГД-3Т</td>
+                    <td>Для установки на улице счетчика СГД-3Т-1</td>
+                    <td>45.000</td>
+                </tr>
+            </table>
+            <h3>Счетчики газовые для квартир</h3>
+            <ul class="gallery">
+                <li>
+                    <a rel="lightbox" href="#"><img class="img-medium-bg" src="assets/img/gas/counters/sgd.jpg" alt="Газовый счетчик СГД" title="Предназначен для учета расхода газа объемом до 1,6 м3/час" /></a><p class="caption">Счетчик газа СГД-G 1,6. <span>Для квартир с газовыми плитами</span></p>
+                </li>
+              <li class="margin-left">
+                    <a rel="lightbox" href="#"><img class="img-medium-bg" src="assets/img/gas/counters/sgd.jpg" alt="Газовый счетчик СГД" title="Предназначен для учета расхода газа объемом до 2,5 м3/час" /></a><p class="caption">Счетчик газа СГД-G 2,5.<span>Для квартир с газовыми плитами</span></p>
+               </li>
+            </ul>
+            <hr />
+            <h3>Счетчики газовые для домов и коттеджей</h3>
+            <ul class="gallery">
+                <li>
+                    <a rel="lightbox" href="#" ><img class="img-medium-bg" src="assets/img/gas/counters/sgm.jpg" alt="Газовый счетчик СГМ" title="" /></a><p class="caption">Счетчик газа СГМ-G 4.<span>Для небольших домов и коттеджей</span></p>
+                </li>
+              <li class="margin-left">
+                    <a rel="lightbox" href="#" ><img class="img-medium-bg" src="assets/img/gas/counters/sgm.jpg" alt="Газовый счетчик СГМН" title="" /></a><p class="caption">Счетчик газа СГМН-G 6. <span>Для домов и коттеджей</span></p>
+                </li>
+                <li>
+                    <a rel="lightbox" href="#" ><img class="img-medium-bg" src="assets/img/gas/counters/sgd-3.jpg" alt="Газовый счетчик СГД-3Т" title="" /></a><p class="caption">Счетчик газа СГД-3Т-1 G6. <span>Для установки на улице (термокомпенсатор)</span></p>
+                </li>
+              <li class="margin-left">
+                    <a rel="lightbox" href="#" ><img class="img-medium-bg" src="assets/img/gas/counters/box.jpg" alt="Стальной ящик" title="Ящик предназначен для установки газового счетчика или регулятора давления на улице" /></a><p class="caption">Ящик для счетчика СГД-3Т-1.<span>Для установки на улице</span></p>
+                </li>
+            </ul>
+        </div><!-- END .COL-2_THIRDS -->
+        <div class="col-third">
+            <h3>Как выбрать</h3>
+			<q>Данная разбивка поможет вам лучше ориентироваться в моделях. При выборе счетчика  стоит покупать только ту модель, которая указана в проекте на газоснабжение.</q>
+			
+			<q>Если вы сомневаетесь или не все понимаете, то уточните модель у тех, кто будет монтировать газопровод или проконсультируйтесь с нами .</q>
+			
+         <cite>Помните! Неправильно купленный счетчик вернуть или обменять нельзя, потому что в его паспорте ставится отметка о дате продажи. Внимательно отнеситесь к покупке</cite>
+
+			
+			
+			<q>Только счетчики с термокомпенсатором предназначены для установки снаружи дома. К нему так же необходимо приобретать ящик.</q>
+			
+			<q>Счетчики бывают правые и левые. Стандартным считается левый. Газ в него входит слева, но иногда в зависимости от расположения газопровода необходим правый. Будьте внимательны при покупке так как обменять их так же нельзя</q>
+        </div><!-- END .COL-THIRD -->
+        
+	</div><!-- END CONTAINER -->
+    <div id="footer">
+        <ul>
+            <li><a href="index.html">ГеоГаз</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Услуги">Услуги</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Магазин">Магазин</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Вопросы и Ответы">Вопрос-ответ</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Партнеры">Партнеры</a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2010 ООО "ГеоГаз"</p>
+    </div><!-- END FOOTER -->
+</div><!-- END WRAPPER -->
+</body>
+
+</html>

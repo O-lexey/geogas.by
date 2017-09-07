@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!-- BEGIN META -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Проясним большинство ситуаций, возникающих при подключении газа к коттеджу или частному дому" />
+<meta name="keywords" content="газ, газопровод, газоснабжение, подключение газа, счетчик газа, регулятор давления газа, котел, бойлер" />
+<!-- END META -->
+
+<title>Ответы на вопросы по газоснабжению, подключению газа, проектированию и монтажу газопроводов</title>
+
+<!-- BEGIN STYLESHEETS -->
+<link href="assets/css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/base.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/green/style.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if IE 6]>
+<link href="assets/css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="assets/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- END STYLESHEETS -->
+
+<!-- BEGIN SCRIPTS -->
+<script type="text/javascript" src="assets/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui-1.6.min.js" ></script>
+<script type="text/javascript" src="assets/js/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript" src="assets/js/jqueryslidemenu.js"></script>
+<script type="text/javascript" src="assets/js/sliding-boxes.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 7000, true);
+		$('a[rel=lightbox]').lightBox();
+	});
+</script>
+<!-- END SCRIPTS -->
+
+</head>
+
+<body id="geogas">
+<div id="wrapper">
+	<div id="header">
+		<a href="index.html" class="logo">ГеоГаз - прокладка газопроводов, подключение газа</a>
+        <p>Velcom (044) 780-80-16</p>
+        <address>Минск, Беларусь</address>
+        <div id="myslidemenu" class="jqueryslidemenu">
+            <ul>
+                <li class="service"><a href="Услуги">Услуги</a>
+                    <ul>
+                        <li><a href="Проектирование газопроводов">Проектирование</a></li>
+                        <li><a href="Подключение газа">Монтаж газопровода</a></li>
+                        <li><a href="Системы теплоснабжения">Теплоснабжение</a></li>
+                    </ul>
+                </li>
+                <li class="shop"><a href="Магазин">Магазин</a>
+                    <ul>
+                        <li><a href="Счетчики газа">Счетчики газа</a></li>
+                        <li><a href="Регуляторы давления газа">Регуляторы давления газа</a></li>
+                        <li><a href="Отопительное оборудование">Газовые котлы</a></li>
+                    </ul>
+                </li>
+                <li class="answers"><a href="Вопросы и Ответы">Вопрос-Ответ</a></li>
+                <li class="partners"><a href="Партнеры">Партнеры</a></li>
+                <li class="geogas"><a href="index.html">ГеоГаз</a>
+                            <ul>
+                                <li><a href="Контактная информация">Контактная информация</a></li>
+                                <li><a href="Лицензии">Лицензии</a></li>
+                            </ul>
+                </li>
+            </ul>
+            <br style="clear: left" />
+        </div><!-- END MYSLIDEMENU -->
+	</div><!-- END HEADER -->
+    <div id="container">
+
+         <div class="col-2_thirds">
+            <h3>Что такое "акт пожарника"?</h3>
+            <p>Пуск газа возможен только после получения акта о проверки дымоходов в ЧП “Противопожарные работы” РГОО "Белорусское добровольное пожарное общество" (тел. 262-03-22, ул. Олешева, 14). Они проверяют только дымоходы и вентиляционные каналы: размер, тягу, соответствие проекту. Если у вас нет времени, то мы можем помочь вам получить данный акт.</p>
+
+            <h3>Где можно ставить счетчик?</h3>
+            <p>Счетчик можно устанавливать как внутри дома, так и снаружи. Особенность в том, что счетчик, который ставится снаружи, должен быть с термокомпенсатором и установлен в ящике, что дороже в сравнении с установкой внутри. Но если есть возможность, то рекомендуем ставить снаружи, так как будет меньше потенциальных точек для утечек газа внутри топочной, и работники газовой службы смогут снимать показания не заходя к вам в дом.</p>
+
+            <h3>В какой цвет можно красить  газовую трубу?</h3>
+            <p>После крана на выходе из земли трубу можно красить в любой цвет (в 3 слоя:  1 слой грунтовки и 2 слоя краски, либо в один слой краской, которая называется "три в одном"), до крана - только в желтый цвет.</p>
+
+            <h3>Можно ли установить газовый котел в подвале?</h3>
+            <p>Один или два газовых котла можно установить в подвале, цоколе или чердаке коттеджа (одноквартирного жилого дома).</p>
+
+            <h3>Можете ли вы перенести счетчик или газовую трубу в квартире?</h3>
+            <p>Если в трубах есть газ, то не можем. В действующие сети имеют право вмешиваться только газовые службы. Для переноса газовой трубы или счетчика обращайтесь в УП "МинГаз" (ул. Ботаническая, 11. 1-ый подъезд).</p>
+
+        </div><!-- END .COL-2_THIRDS -->
+        <div class="col-third">
+            <h3>Полезные ресурсы</h3>
+          <p class="date">Другие источники информации о газоснабжении и теплотехнике в интернете</p>
+            <ul class="sidebar">
+            	<li><a href="http://www.mingas.by/">Сайт УП «МИНГАЗ»</a></li>
+            	<li><a href="http://vashdom.tut.by/forum/index.php?topic=1483">"Подвод газопровода к дому"</a></li>
+            	<li><a href="http://landlord.by/talk/viewforum.php?f=18">"Газ в доме"</a></li>
+            	<li><a href="http://bosch-tt.ru/language1/faq/index.html">50 вопросов по газовым котлам</a></li>
+            	<li><a href="http://www.woodheat.ru/gazcompare.html">Адекватная статья "Газ или пеллеты?"</a></li>
+            	<li><a href="http://www.forumhouse.ru/forum130/">Форум "Газовые котлы"</a></li>
+            	<li><a href="http://www.domagas.net">Сайт "Газоснабжение домов"</a></li>
+            </ul>
+            <h3>Полезные адреса</h3>
+            <ul class="sidebar">
+				<li>УП "МинГаз"<br/>ул.Ботаническая, 11 Тел.: (017) 2992880, (017) 2942010</li>
+				<li>РГОО "Белорусское добровольное пожарное общество"<br/>ул. Олешева, 14. Тел. 262-03-22</li>
+				<li>УП "Брестоблгаз"<br/>Брест, ул. Г. Попова, 16. Тел	(0162) 20-99-18</li>
+				<li>УП "Витебскоблгаз"<br/>Витебск, ул Правды , 36. Тел (0212) 47-50-87</li>
+				<li>УП "Гомельоблгаз"<br/>Гомель, ул. Гагарина, 17. Тел (0232) 70-04-07</li>
+				<li>УП "Гроднооблгаз"<br/>Гродно, пр. Космонавтов 60/1. Тел (0152) 79-01-00</li>
+				<li>УП "Могилевоблгаз"<br/>Могилев, ул. Габровская, 11. Тел	(0222) 45-01-64</li>
+            </ul>
+        </div><!-- END .COL-THIRD -->
+        
+	</div><!-- END CONTAINER -->
+    <div id="footer">
+        <ul>
+            <li><a href="index.html">ГеоГаз</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Услуги">Услуги</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Магазин">Магазин</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Вопросы и Ответы">Вопрос-ответ</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Партнеры">Партнеры</a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2010 ООО "ГеоГаз"</p>
+    </div><!-- END FOOTER -->
+</div><!-- END WRAPPER -->
+</body>
+
+</html>

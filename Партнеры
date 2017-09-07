@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!-- BEGIN META -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Рекомендуем воспользоваться услугами проверенных и надежных компаний" />
+<meta name="keywords" content="газ, газопровод, газоснабжение, подключение газа, счетчик газа, регулятор давления газа, котел, бойлер" />
+<!-- END META -->
+
+<title>Деловые партнеры ООО ГеоГаз по подключению газа</title>
+
+<!-- BEGIN STYLESHEETS -->
+<link href="assets/css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/base.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/green/style.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if IE 6]>
+<link href="assets/css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="assets/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- END STYLESHEETS -->
+
+<!-- BEGIN SCRIPTS -->
+<script type="text/javascript" src="assets/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui-1.6.min.js" ></script>
+<script type="text/javascript" src="assets/js/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript" src="assets/js/jqueryslidemenu.js"></script>
+<script type="text/javascript" src="assets/js/sliding-boxes.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 7000, true);
+		$('a[rel=lightbox]').lightBox();
+	});
+</script>
+<!-- END SCRIPTS -->
+
+</head>
+
+<body id="partners">
+<div id="wrapper">
+	<div id="header">
+		<a href="index.html" class="logo">ГеоГаз - прокладка газопроводов, подключение газа</a>
+        <p>Velcom (044) 780-80-16</p>
+        <address>Минск, Беларусь</address>
+        <div id="myslidemenu" class="jqueryslidemenu">
+            <ul>
+                <li class="service"><a href="Услуги">Услуги</a>
+                    <ul>
+                        <li><a href="Проектирование газопроводов">Проектирование</a></li>
+                        <li><a href="Подключение газа">Монтаж газопровода</a></li>
+                        <li><a href="Системы теплоснабжения">Теплоснабжение</a></li>
+                    </ul>
+                </li>
+                <li class="shop"><a href="Магазин">Магазин</a>
+                    <ul>
+                        <li><a href="Счетчики газа">Счетчики газа</a></li>
+                        <li><a href="Регуляторы давления газа">Регуляторы давления газа</a></li>
+                        <li><a href="Отопительное оборудование">Газовые котлы</a></li>
+                    </ul>
+                </li>
+                <li class="answers"><a href="Вопросы и Ответы">Вопрос-Ответ</a></li>
+                <li class="partners"><a href="Партнеры">Партнеры</a></li>
+                <li class="geogas"><a href="index.html">ГеоГаз</a>
+                            <ul>
+                                <li><a href="Контактная информация">Контактная информация</a></li>
+                                <li><a href="Лицензии">Лицензии</a></li>
+                            </ul>
+                </li>
+            </ul>
+            <br style="clear: left" />
+        </div><!-- END MYSLIDEMENU -->
+	</div><!-- END HEADER -->
+    <div id="container">
+
+    	<div class="col-full">
+            <h3>Партнеры</h3>
+          <p class="date">Слово партнер происходит от французского слова partenaire - "соучастник игры". Действительно, в какую бы игру вы не играли, в одиночку всегда играть труднее, чем в паре или в составе партнерства. Партнер всегда подстрахует в случае неудачи или подставит свое плечо, чтобы довести вас до финиша. Даже на уровне инстинктов человек стремится завести семью и друзей, т.е. партнеров на разных игровых полях общественного устройства. И бизнес, как составная часть социума, не исключение</p>
+            <ul class="gallery">
+                <li>
+                    <a href="http://www.koleya.ru" ><img class="img-medium-bg" src="assets/img/partners/koleya.jpg" alt="Земляные работы" title="Котлованы, траншеи, коммуникации, планировка, снятие плодородного слоя: погрузчик ТО-18 и экскаватор" /></a><p class="caption">Земляные работы <span>Экскаватор, погрузчик ТО-18</span></p>
+                </li>
+              <li class="margin-left">
+                    <a href="http://www.belhit.ru" ><img class="img-medium-bg" src="assets/img/partners/belhit.jpg" alt="Проектная организация" title="Охранная, пожарная сигнализации, связь, ЛВС, разработка ПО и проектов по автоматизации" /></a><p class="caption">Проектирование, автоматизация<span>Сложные и нестандартные решения</span></p>
+                </li>
+              <li class="margin-left">
+                    <a href="http://www.saabclub.by" ><img class="img-medium-bg" src="assets/img/partners/saabclub.jpg" alt="Автомобили SAAB" title="Встречи, общение, помощь на дорогах, советы по ремонту двигателя, кассеты, турбины, SID" /></a><p class="caption">SaabClub.BY <span>Клуб владельцев автомобиля SAAB</span></p>
+                </li>
+            </ul>
+            <h5>Спецтехника в аренду: экскаватор, погрузчик ТО-18</h5>
+            <p>Компания <a href="http://www.koleya.ru">Koleya.Ru</a> выполняет все виды земляных работ. В отличии от большинства фирм РБ, не боится работы за пределами Минского района - для них не проблема доставить ТО-18 на выходные за 200 км. от Минска. За все время работы ни разу не подвели нас, а иногда и просто спасали, продолжая работать всю ночь, вытаскивая и разгружая застрявшие миксеры с бетоном. Водители - непьющие, молодые парни, которые слушают каждое твое слово</p>
+            <h5>Проектирование специальных систем, разработка программного обеспечения</h5>
+            <p>Частное предприятие <a href="http://www.belhit.ru">СпецКомплексПроект</a> быстро и грамотно выполняет проекты, за которые другие даже не берутся. Видеонаблюдение, охранная, пожарная сигнализация, сети связи, ЛВС, контроль доступа, системы "умный дом" - к любой идее подходят творчески, а не шаблонно. Помогли привезти комплект специального оборудования из РФ, решение на котором оказалось в 2 раза дешевле, чем предлагали другие проектировщики.</p>
+            <h5>Море адекватной информации о SAAB от владельцев</h5>
+            <p>Основное отличие форума <a href="http://www.saabclub.by">белорусского SAAB клуба</a> от других русскоязычных ресурсов по Саабу - приятная и комфортная атмосфера общения и взаимопомощи. Несмотря на обилие уникальной технической информации, главное - это люди, с которыми можно увлекательно поиграть в волейбол, футбол, боулинг или биллиард, просто отдохнуть или поговорить "по душам", даже если вы являетесь поклонником другой марки. Ресурс не коммерческий, а значит рекомендованные автосервисы и магазины запчастей действительно отличаются качеством и гуманными ценами.</p>
+            <h5>Полезные информационные сайты в белорусском Интернете по теме "Строительство и ремонт"</h5>
+            <p><A target="_blank" href="http://www.mdom.biz/"><img src="http://www.mdom.biz/moidom.gif" width="88" height="31" border="0" alt="Мой Дом - Как построить дом? Как сделать ремонт? Технологии, советы, опыт."></A></p>
+            <p>
+            <!--Begin BEL.BIZ catalog Button-->
+            <a href="http://catalog.bel.biz/from.php?50212"><img src="http://catalog.bel.biz/ban/topbelbiz2.gif" width="88" height="31" border="0" alt="Каталог Бизнес Сайтов на BEL.BIZ"></a>
+            <!--END BEL.BIZ catalog Button-->
+            </p>
+            <p><a href="http://ya.simver.biz/cncat_from.php?3847">Белорусский каталог сайтов</a></p>
+    	</div><!-- END .COL-FULL -->
+    	
+	</div><!-- END CONTAINER -->
+    <div id="footer">
+        <ul>
+            <li><a href="index.html">ГеоГаз</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Услуги">Услуги</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Магазин">Магазин</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Вопросы и Ответы">Вопрос-ответ</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Партнеры">Партнеры</a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2010 ООО "ГеоГаз"</p>
+    </div><!-- END FOOTER -->
+</div><!-- END WRAPPER -->
+</body>
+
+</html>

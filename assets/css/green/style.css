@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* ---------------------------------------------------------------------------
+
+	CSS CUSTOM STYLES: @2009 by Glenn McKeown
+	for Clarity - Version 1.0 Green
+
+*/
+
+/* ---------------------------------------------------------------------------
+	HTML / BODY / BACKGROUNDS / STRUCTURES
+*/
+
+html {
+	background:url(../../img/green/bg_border-and-gradient.jpg) top left repeat-x #fff;
+	}
+	#container {
+		background:url(../../img/green/bg_gradient-only.jpg) 0px 1px repeat-x #fff;
+		}
+		#header {
+			border-bottom:2px solid #999;
+			}
+		#footer {
+			border-top:2px solid #999;
+			}
+/* ---------------------------------------------------------------------------
+	LOGO / NAV / LISTS
+*/
+
+.logo {
+	background:url(../../img/green/logo.jpg) top left no-repeat;
+	}
+#myslidemenu .service {
+	background:url(../../img/green/nav.png) 0px 0px no-repeat;
+	}
+	#service #myslidemenu .service, #myslidemenu .service:hover {
+		background-position:0px -40px;
+		}
+#myslidemenu .shop {
+	background:url(../../img/green/nav.png) -105px 0px no-repeat;
+	}
+	#shop #myslidemenu .shop, #myslidemenu .shop:hover {
+		background-position:-105px -40px;
+		}
+#myslidemenu .answers {
+	background:url(../../img/green/nav.png) -210px 0px no-repeat;
+	}
+	#answers #myslidemenu .answers,	#myslidemenu .answers:hover {
+		background-position:-210px -40px;
+		}
+#myslidemenu .partners {
+	background:url(../../img/green/nav.png) -315px 0px no-repeat;
+	}
+	#partners #myslidemenu .partners, #myslidemenu .partners:hover {
+		background-position:-315px -40px;
+		}
+#myslidemenu .geogas {
+	background:url(../../img/green/nav.png) -420px 0px no-repeat;
+	}
+	#geogas #myslidemenu .geogas, #myslidemenu .geogas:hover {
+		background-position:-420px -40px;
+		}
+ul li {
+	background:url(../../img/green/bg_li.png) 5px 10px no-repeat;
+	}
+	.sidebar li {
+		background:none;
+		border-top:1px solid #f0f0f0;
+	}
+	.sidebar li a {
+		color:#555;
+		}
+		.sidebar li:first-child {
+			border-top:none;
+			}
+		.sidebar li:hover {
+			background-color:#f0f0f0;
+			}
+	.pagination li {
+		background:url(../../img/green/button-small.jpg) top left no-repeat;
+		}
+		.pagination li a {
+			color:#fff;
+			}
+			.pagination li a:hover, .pagination li a.active-page {
+				color:#666;
+				}
+				
+/* ---------------------------------------------------------------------------
+	TYPOGRAPHY
+*/
+
+h1, h2, h3, h4, h5, h6, p, a, li, b, strong, i, em, address, abbr, acronym, small, big, q, blockquote, cite, caption, table {
+	color:#555;
+	}
+	h1, h2 {
+		background-color:#fff;
+		color:#638f97;
+		}
+a {
+	color:#638f97;
+	}
+	#header p, #header address {
+		color:#999;
+		}
+.date {
+	color:#999;
+	padding:0;
+	}
+	
+/* ---------------------------------------------------------------------------
+	FORMS
+*/
+
+input, textarea, select  {
+	border:1px solid #e6e6e6;
+	color:#555;
+	}
+	input:focus, textarea:focus, select:focus  {
+		background-color:#fafafa;
+		}
+label {
+	color:#b6b6b6;
+	}
+#submit {
+	background:url(../../img/green/button-medium.jpg) top left no-repeat;
+	border:none;
+	color:#fff;
+	}
+	#submit:hover {
+	color:#666;
+	}
+
+/* ---------------------------------------------------------------------------
+	TABLE STYLES
+*/	
+table {
+	}
+th {
+	background:url(../../img/green/table-head.jpg) bottom left repeat-x #aaa;
+	border:1px solid #fff;
+	color:#fff;
+	}
+tr {
+	}
+	table tr.odd td {
+		background-color:#eee;
+		}
+	table tr.even td {
+		background-color:#f6f6f6;
+		}
+td {
+	border:1px solid #fff;
+	}
+
+/* ---------------------------------------------------------------------------
+	IMAGES
+*/
+
+.img-medium-bg {
+	background:url(../../img/green/bg_img-medium.jpg) top left no-repeat;
+	height:132px;
+	padding:14px;
+	width:272px;
+	}
+.img-large-bg {
+	background:url(../../img/green/bg_img-large.jpg) top left no-repeat;
+	height:212px;
+	padding:14px;
+	width:592px;
+	}
+
+/* ---------------------------------------------------------------------------
+	CONTENT SLIDER
+*/
+	
+#featured ul.ui-tabs-nav li {
+	background:url(../../img/green/button-large.jpg) top left no-repeat;
+	}
+	#featured li.ui-tabs-nav-item a { 
+		color:#666;
+		}
+	#featured li.ui-tabs-selected, #featured li.ui-tabs-nav-item a:hover, #featured ul.ui-tabs-nav li.ui-tabs-selected a {
+		color:#fff;
+		}
+#featured .info big {
+	color:#999; 
+}
+
+/* ---------------------------------------------------------------------------
+	GALLERY
+*/
+.gallery li p {
+	background:url(../../img/green/black-85-opacity.png) top left repeat; 
+	color:#f6f6f6;
+	}
+
+/* ---------------------------------------------------------------------------
+	BUTTONS
+*/
+
+.button-small {
+	background:url(../../img/green/button-small.jpg) top left no-repeat;
+	color:#fff;
+	}
+	.button-small:hover {
+		color:#666;
+	}
+.button-medium {
+	background:url(../../img/green/button-medium.jpg) top left no-repeat;
+	color:#fff;
+	}
+	.button-medium:hover {
+		color:#666;
+	}
+.button-large {
+	background:url(../../img/green/button-large.jpg) top left no-repeat;
+	color:#fff;
+	}
+	.button-large:hover {
+		color:#666;
+	}
+
+/* ---------------------------------------------------------------------------
+	FOOTER
+*/
+
+#footer, #footer p, #footer li, #footer li a {
+	color:#555;
+	}

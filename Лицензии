@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!-- BEGIN META -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Лицензии на монтаж сетей газоснабжения, лицензия на продажу счетчиков газа и регуляторов давления газа" />
+<meta name="keywords" content="газ, газопровод, газоснабжение, подключение газа, счетчик газа, регулятор давления газа, котел, бойлер" />
+<!-- END META -->
+
+<title>Лицензия на проектирование и строительство газопроводов</title>
+
+<!-- BEGIN STYLESHEETS -->
+<link href="assets/css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/base.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/green/style.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if IE 6]>
+<link href="assets/css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="assets/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- END STYLESHEETS -->
+
+<!-- BEGIN SCRIPTS -->
+<script type="text/javascript" src="assets/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui-1.6.min.js" ></script>
+<script type="text/javascript" src="assets/js/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript" src="assets/js/jqueryslidemenu.js"></script>
+<script type="text/javascript" src="assets/js/sliding-boxes.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 7000, true);
+		$('a[rel=lightbox]').lightBox();
+	});
+</script>
+<!-- END SCRIPTS -->
+
+</head>
+
+<body id="geogas">
+<div id="wrapper">
+	<div id="header">
+		<a href="index.html" class="logo">ГеоГаз - прокладка газопроводов, подключение газа</a>
+        <p>Velcom (044) 780-80-16</p>
+        <address>Минск, Беларусь</address>
+        <div id="myslidemenu" class="jqueryslidemenu">
+            <ul>
+                <li class="service"><a href="Услуги">Услуги</a>
+                    <ul>
+                        <li><a href="Проектирование газопроводов">Проектирование</a></li>
+                        <li><a href="Подключение газа">Монтаж газопровода</a></li>
+                        <li><a href="Системы теплоснабжения">Теплоснабжение</a></li>
+                    </ul>
+                </li>
+                <li class="shop"><a href="Магазин">Магазин</a>
+                    <ul>
+                        <li><a href="Счетчики газа">Счетчики газа</a></li>
+                        <li><a href="Регуляторы давления газа">Регуляторы давления газа</a></li>
+                        <li><a href="Отопительное оборудование">Газовые котлы</a></li>
+                    </ul>
+                </li>
+                <li class="answers"><a href="Вопросы и Ответы">Вопрос-Ответ</a></li>
+                <li class="partners"><a href="Партнеры">Партнеры</a></li>
+                <li class="geogas"><a href="index.html">ГеоГаз</a>
+                            <ul>
+                                <li><a href="Контактная информация">Контактная информация</a></li>
+                                <li><a href="Лицензии">Лицензии</a></li>
+                            </ul>
+                </li>
+            </ul>
+            <br style="clear: left" />
+        </div><!-- END MYSLIDEMENU -->
+	</div><!-- END HEADER -->
+    <div id="container">
+
+     	<div class="col-full">
+            <h3>Свидетельства, лицензии, сертификаты</h3>
+            <ul class="gallery">
+                <li>
+                    <a rel="lightbox" href="assets/img/license/geogas.jpg" ><img src="assets/img/license/geogas_s.jpg" alt="" title="" /></a><p class="caption">Свидетельство о гос. регистрации<span>ООО "ГеоГаз"</span></p>
+                </li>
+              <li class="margin-left">
+                    <a rel="lightbox" href="assets/img/license/promatom.jpg" ><img src="assets/img/license/promatom_s.jpg" alt="" title="" /></a><p class="caption">Лицензия Госпромнадзора МЧС<span>На монтаж газопроводов</span></p>
+                </li>
+              <li class="margin-left">
+                    <a rel="lightbox" href="assets/img/license/trade.jpg" ><img src="assets/img/license/trade_s.jpg" alt="" title="" /></a><p class="caption">Лицензия на розничную торговлю<span>Интернет-магазин geogas.by</span></p>
+                </li>
+            </ul>
+    	</div><!-- END .COL-FULL -->
+    	
+	</div><!-- END CONTAINER -->
+    <div id="footer">
+        <ul>
+            <li><a href="index.html">ГеоГаз</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Услуги">Услуги</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Магазин">Магазин</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Вопросы и Ответы">Вопрос-ответ</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Партнеры">Партнеры</a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2010 ООО "ГеоГаз"</p>
+    </div><!-- END FOOTER -->
+</div><!-- END WRAPPER -->
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!-- BEGIN META -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Монтаж газопроводов, все виды работ, любая сложность" />
+<meta name="keywords" content="газ, газопровод, газоснабжение, подключение газа, счетчик газа, регулятор давления газа, котел, бойлер" />
+<!-- END META -->
+
+<title>Подключение газа к коттеджу, частному дому, административному зданию</title>
+
+<!-- BEGIN STYLESHEETS -->
+<link href="assets/css/reset.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/base.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="assets/css/green/style.css" rel="stylesheet" type="text/css" media="screen" />
+<!--[if IE 6]>
+<link href="assets/css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="assets/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- END STYLESHEETS -->
+
+<!-- BEGIN SCRIPTS -->
+<script type="text/javascript" src="assets/js/jquery-1.2.6.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-ui-1.6.min.js" ></script>
+<script type="text/javascript" src="assets/js/jquery.lightbox-0.5.js"></script>
+<script type="text/javascript" src="assets/js/jqueryslidemenu.js"></script>
+<script type="text/javascript" src="assets/js/sliding-boxes.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 7000, true);
+		$('a[rel=lightbox]').lightBox();
+	});
+</script>
+<!-- END SCRIPTS -->
+
+</head>
+
+<body id="geogas">
+<div id="wrapper">
+	<div id="header">
+		<a href="index.html" class="logo">ГеоГаз - прокладка газопроводов, подключение газа</a>
+        <p>Velcom (044) 780-80-16</p>
+        <address>Минск, Беларусь</address>
+        <div id="myslidemenu" class="jqueryslidemenu">
+            <ul>
+                <li class="service"><a href="Услуги">Услуги</a>
+                    <ul>
+                        <li><a href="Проектирование газопроводов">Проектирование</a></li>
+                        <li><a href="Подключение газа">Монтаж газопровода</a></li>
+                        <li><a href="Системы теплоснабжения">Теплоснабжение</a></li>
+                    </ul>
+                </li>
+                <li class="shop"><a href="Магазин">Магазин</a>
+                    <ul>
+                        <li><a href="Счетчики газа">Счетчики газа</a></li>
+                        <li><a href="Регуляторы давления газа">Регуляторы давления газа</a></li>
+                        <li><a href="Отопительное оборудование">Газовые котлы</a></li>
+                    </ul>
+                </li>
+                <li class="answers"><a href="Вопросы и Ответы">Вопрос-Ответ</a></li>
+                <li class="partners"><a href="Партнеры">Партнеры</a></li>
+                <li class="geogas"><a href="index.html">ГеоГаз</a>
+                            <ul>
+                                <li><a href="Контактная информация">Контактная информация</a></li>
+                                <li><a href="Лицензии">Лицензии</a></li>
+                            </ul>
+                </li>
+            </ul>
+            <br style="clear: left" />
+        </div><!-- END MYSLIDEMENU -->
+	</div><!-- END HEADER -->
+    <div id="container">
+
+<script type="text/javascript">
+$(document).ready(function(){
+$("#calculate-form").submit(function(){
+var str = $(this).serialize();
+$.ajax({type: "POST", url: "/scripts/calculate.php", data: str, success: function(msg){
+
+$("#calculate-form").ajaxComplete(function(event, request, settings){
+
+if(msg == 'Bad')
+{
+result = 'Проверьте правильность ввода данных';
+}
+else
+{
+result = msg;
+}
+
+$("#calc_result").html(result);
+});
+}
+});
+return false;
+});
+});
+</script>
+        <div class="col-2_thirds">
+            <h3>Газопроводы "под ключ"</h3>
+            <img class="img-right img-medium-bg" src="assets/img/gas/linking/belomo.jpg" title="Комплексная услуга по подключению газа - от Вас только один звонок" alt='Газ "под ключ"' />
+            <p>ООО "ГеоГаз" готова выполнить любой этап по газоснабжению, но основной упор мы делаем на комплексную услугу по подключению газа. Самостоятельно получим разрешение сельсовета или исполкома, закажем технические условия в МинГазе, выполним топосъемку, сделаем и согласуем проект, выкопаем траншею, проведем монтаж, получим акт на дымоходы, и сдадим в эксплуатацию.</p>
+            <p>Закажите бесплатный осмотр объекта - мы расскажем Вам про подключение газа, уточним, что необходимо сделать в топочной, посоветуем с выбором котла и скажем приблизительную стоимость всех работ. У Вас будет четкая и достоверная картина процесса, ведь часто на форумах в интернете сообщаются противоречивые или ошибочные сведения.</p>
+            <h3>Наши преимущества</h3>
+            <p>Прежде всего - это <strong>сроки</strong> выполнения работ. У нас свое оборудование, своя землеройная техника, свои проектировщики и геодезист. На складе постоянно поддерживается необходимый запас трубы, фитингов, кранов, счетчиков и регуляторов. Простои исключены. Подключение газа делается в среднем за месяц.</p>
+            <p>Прошли те времена, когда подключение к газу было доступно только хорошо обеспеченным домовладельцам. Сегодня, благодаря конкуренции и доступности информации, <strong>цена</strong> у частных организаций ниже, чем у государственных.</p>
+            <p>Но самое главное - это отношение к <strong>клиенту</strong>. Просто позвоните - обещаем, что подключение газа станет самым необременительным этапом в строительстве Вашего дома или коттеджа.</p>
+            <h3>Подключение газа к административным зданиям</h3>
+            <img class="img-right img-medium-bg" src="assets/img/gas/linking/giacomini.jpg" title="Подключаем газ несмотря на трудности и бюрократические препятствия" alt="Газопроводы любой сложности" />
+            <p>Мы накопили бесценный опыт по всему циклу строительства газопроводов для административных зданий: от получения первичной разрешительной документации до пуска газа. Только перечисление всех необходимых разрешительных документов может поставить под сомнение желание газифицировать здание. Но мы не оставляем заказчика один-на-один с бюрократическими процедурами, а беремся даже за самые сложные объекты и доводим начатую работу до конца.</p>
+            <p>Благодаря налаженным партнерским связям, наши клиенты не только значительно экономят время, но и получают возможность приобретать некоторые виды необходимых товаров или услуг по цене существенно ниже среднерыночной.</p>
+            <p>К примеру, при прокладке газопроводов в г. Минске, приходится выполнять несколько "проколов" под дорогами. Такие работы выполняются установками горизонтального направленного бурения (ГНБ), рыночная цена за один "прокол" может превышать 6 миллионов БРБ. Но мы знаем несколько организаций со значительно более гуманными ценами и оперативными сроками выполнения работ.</p>
+        </div><!-- END .COL-2_THIRDS -->
+        <div class="col-third">
+            <h3>On-Line калькулятор</h3>
+            <p class="date">Предназначен для расчет ориентирочной стоимости подключения газа</p>
+            <h6>Длинна газопровода</h6>
+            <form id="calculate-form" method="post" action="javascript:alert('success!');" enctype="multipart/form-data">
+                <p>Снаружи здания, метров
+                <input class="calc_form" type="text" name="outdoorlen" id="outdoorlen" /></p>
+                <p>Внутри здания, метров
+                <input class="calc_form" type="text" name="indoorlen" id="indoorlen" /></p>
+            <h6>Давление в газопроводе</h6>
+               <p><input class="gen_form" type="radio" name="pressure" value="dontknow" />Не знаю</p>
+               <p><input class="gen_form" type="radio" name="pressure" value="low" /> Низкое</p>
+               <p><input class="gen_form" type="radio" name="pressure" value="mid" /> Среднее</p>
+            <h6>Подключаемое оборудование</h6>
+				  <p><input class="gen_form" type="checkbox" name="plita" id="plita" />Газовая плита</p>
+				  <p><input class="gen_form" type="checkbox" name="boiler" id="boiler" />Газовый котел</p>
+				  <p><input class="gen_form" type="checkbox" name="heater" id="heater" />Водонагреватель</p>
+            <h6>Дополнительные работы</h6>
+				  <p><input class="gen_form" type="checkbox" name="needproject" id="needproject" />Проект</p>
+				  <p><input class="gen_form" type="checkbox" name="needtopo1" id="needtopo1" />Топосъемка исходная</p>
+				  <p><input class="gen_form" type="checkbox" name="needtopo2" id="needtopo2" />Топосъемка исполнительная</p>
+				  <p><input class="gen_form" type="checkbox" name="needvent" id="needvent" />Акт проверки дымоходов</p>
+				  <p><input class="gen_form" type="checkbox" name="needearth" id="needearth" />Земляные работы</p>
+              <p><input class="gen_form" type="submit" name="submit" id="submit" value="Отправить" /></p>
+            </form>
+            <h3>Результат расчета</h3>
+            <div id="calc_result"></div>
+        </div><!-- END .COL-THIRD -->
+        
+	</div><!-- END CONTAINER -->
+    <div id="footer">
+        <ul>
+            <li><a href="index.html">ГеоГаз</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Услуги">Услуги</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Магазин">Магазин</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Вопросы и Ответы">Вопрос-ответ</a></li>
+            <li>&nbsp;|&nbsp;</li>
+            <li><a href="Партнеры">Партнеры</a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2010 ООО "ГеоГаз"</p>
+    </div><!-- END FOOTER -->
+</div><!-- END WRAPPER -->
+</body>
+
+</html>
